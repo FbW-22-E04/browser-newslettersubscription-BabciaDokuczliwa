@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, .box, form{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+  display: none;
+}
+.box{
+width: 40%;
+height: 30%;
+background-color: orange;
+flex-direction: column;
+}
+
+form{
+    flex-direction: column;
+    width: 100%;
+}
+button{
+    background-color: red;
+    color: white;
+    padding: .5em .8em;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1em;
+}
+input{
+    width: 70%;
+    height: 50px;
+    margin-top: 1.5em;
+    padding-left: 1em;
+    font-size: 16px;
+}
+p{
+    font-size: 26px;
+}
